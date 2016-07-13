@@ -52,6 +52,13 @@ class TestLanguageDetector(unittest.TestCase):
                 erzielte. Inzwischen hat Messi als einziger Spieler mehr als 300
                 Erstligatore erzielt und ist damit Rekordtorschütze
                 der Primera División.
+                """,
+            "english": """
+                Language detection is not magic. It’s just a matter of counting 
+                how many of the most common words in a language are included in 
+                certain text. If given text contains words of different 
+                languages, the detector should return the language that 
+                contain most words in given text.
                 """
         }
 
@@ -70,3 +77,7 @@ class TestLanguageDetector(unittest.TestCase):
     def test_detect_language_german_with_module_language_specification(self):
         result = detect_language(self.texts["german"], LANGUAGES)
         self.assertEqual(result.lower(), 'german')
+    
+    def test_detect_language_english_with_module_language_specification(self):
+        result = detect_language(self.texts["english"], LANGUAGES)
+        self.assertEqual(result.lower(), 'english')
