@@ -3,27 +3,30 @@
 LANGUAGES = [
             {
                 'name': 'Spanish',
-                'common_words': [
-                    'el', 'la', 'de', 'que', 'y', 'a', 'en', 'un', 'ser', 'se',
-                    'no', 'haber', 'por', 'con', 'su', 'para', 'como', 'estar',
-                    'tener', 'le', 'lo', 'lo', 'todo', 'pero', 'más', 'hacer',
-                    'o', 'poder', 'decir', 'este', 'ir', 'otro', 'ese', 'la',
-                    'si', 'me', 'ya', 'ver', 'porque', 'dar', 'cuando', 'él',
-                    'muy', 'sin', 'vez', 'mucho', 'saber', 'qué', 'sobre',
-                    'mi', 'alguno', 'mismo', 'yo', 'también', 'hasta'
-                ]
+                'common_words': ['el', 'de', 'que', 'y', 'a', 'en', 'un', 'ser',
+                'se', 'no', 'haber', 'por', 'con', 'su', 'para', 'como', 'estar'
+                , 'tener', 'le', 'lo', 'lo', 'todo', 'pero', 'más', 'hacer', 'o'
+                , 'poder', 'decir', 'este', 'ir', 'otro', 'ese', 'la', 'si', 
+                'me', 'ya', 'ver', 'porque', 'dar', 'cuando', 'él', 'muy', 
+                'sin', 'vez', 'mucho', 'saber', 'qué', 'sobre', 'mi', 'alguno', 
+                'mismo', 'yo', 'también', 'hasta', 'año', 'dos', 'querer', 
+                'entre', 'así', 'primero', 'desde', 'grande', 'eso', 'ni', 
+                'nos', 'llegar', 'pasar', 'tiempo', 'ella', 'sí', 'día', 'uno',
+                'bien', 'poco', 'deber', 'entonces', 'poner', 'cosa', 'tanto', 
+                'hombre', 'parecer', 'nuestro', 'tan', 'donde', 'ahora', 
+                'parte', 'después', 'vida', 'quedar', 'siempre', 'creer', 
+                'hablar', 'llevar', 'dejar', 'nada', 'cada', 'seguir', 'menos',
+                'nuevo', 'encontrar']
             },
             {
                 'name': 'German',
-                'common_words': [
-                    'das', 'ist', 'du', 'ich', 'nicht', 'die', 'es', 'und',
-                    'der', 'was', 'wir', 'zu', 'ein', 'er', 'in', 'sie', 'mir',
-                    'mit', 'ja', 'wie', 'den', 'auf', 'mich', 'dass', 'so',
-                    'hier', 'eine', 'wenn', 'hat', 'all', 'sind', 'von',
-                    'dich', 'war', 'haben', 'für', 'an', 'habe', 'da', 'nein',
-                    'bin', 'noch', 'dir', 'uns', 'sich', 'nur',
-                    'einen', 'kann', 'dem'
-                ]
+                'common_words':['das', 'ist', 'du', 'ich', 'nicht', 'die', 'es', 
+                'und', 'Sie', 'der', 'was', 'wir', 'zu', 'ein', 'er', 'in', 
+                'sie', 'mir', 'mit', 'ja', 'wie', 'den', 'auf', 'mich', 
+                'dass', 'so', 'hier', 'eine', 'wenn', 'hat', 'all', 'sind', 
+                'von', 'dich', 'war', 'haben', 'für', 'an', 'habe', 'da', 
+                'nein', 'bin', 'noch', 'dir', 'uns', 'sich', 'nur', 
+                'einen', 'kann', 'dem']
             },
             {
                 'name': 'English',
