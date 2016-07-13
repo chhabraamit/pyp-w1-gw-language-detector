@@ -18,7 +18,9 @@ def detect_language(text, languages=LANGUAGES):
 def getCount(text, words):
 	ans = 0
 	lower_text = text.lower()
+	set_text = set(lower_text.split(" "))
 	for word in words:
-		ans+= lower_text.count(word)
-	return ans/(len(lower_text.split(" ")))
+	    if word in set_text:
+	        ans += 1
+	return ans/(len(set_text))
 
