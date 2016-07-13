@@ -39,5 +39,17 @@ LANGUAGES = [
                     'that', 'they', 'by', 'can', 'their',
                     'it', 'I', 'word', 'said', 'if'
                     ]
+            },
+            
+            {
+                'name': 'Hindi',
+                'common_words': ['me', 'hai', 'hai', 'nahi', 'lie', 'gaya',
+                'tatha', 'apne', 'kuch', 'sath', 'hota', 'tha', 'diya', 'hue',
+                'koi', 'rup', 'se', 'mai', 'raha', 'hua', 'bat', 'kaha', 
+                'samay', 'kya', 'apni', 'hoti', 'prakar', 'bahut', 'tarah',
+                'bad', 'phir', 'rahe', 'dvara', 'adhik', 'rahi', 'hone', 
+                'evam', 'hui', 'the', 'unke', 'thi', 'vale', 'cahie', 'din',
+                'lekin', 'kam', 'hu', 'hote', 'iske', 'unhe'
+                    ]
             }
         ]

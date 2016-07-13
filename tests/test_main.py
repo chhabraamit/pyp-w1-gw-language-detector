@@ -59,6 +59,15 @@ class TestLanguageDetector(unittest.TestCase):
                 certain text. If given text contains words of different 
                 languages, the detector should return the language that 
                 contain most words in given text.
+                """,
+            "hindi": """Ek Molvi sahab bade pareshan thay, apni toti se.. Unke 
+                pak saaf gharane ka mahol kharab kar dala tha kamzarf toti ne.
+                Muh se aisi gandi gandi galiyaan phoot-ti thi ki mujh jaisa bhi 
+                sharma jaaye. Jhenpte huay Molvi sahab ne apne dost Qazi sahab 
+                ko ye baat bataa di. Qazi sahab bolay usse mere yahan bhej do, 
+                maine doh totay palay hain. Dono bade shareef hain, sara din 
+                allah allah karte rehte hain. Sahi sangat hogi toh doh din  
+                mein zabaan aap hee sahi ho jayegi. Molvi sahab bade khush!
                 """
         }
 
@@ -81,3 +90,7 @@ class TestLanguageDetector(unittest.TestCase):
     def test_detect_language_english_with_module_language_specification(self):
         result = detect_language(self.texts["english"], LANGUAGES)
         self.assertEqual(result.lower(), 'english')
+        
+    def test_detect_language_hindi_with_module_language_specification(self):
+        result = detect_language(self.texts["hindi"], LANGUAGES)
+        self.assertEqual(result.lower(), 'hindi')
