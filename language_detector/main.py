@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """This is the entry point of the program."""
 
 from .languages import LANGUAGES
